@@ -19,3 +19,6 @@ anthropic>=0.100.0
 
 # Used by /pdf to extract text from uploaded PDFs.
 pypdf>=4.2.0
+
+#Flask server 
+flask==3.0.3
