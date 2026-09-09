@@ -1584,7 +1584,7 @@ def increment_question_limit(user_id: int, n: int):
 # midnight. The owner is always unlimited; anyone else can be marked unlimited too
 # (see set_ai_unlimited / /freeuser) — for friends etc.
 # ==========================================
-DAILY_AI_QUESTION_LIMIT = 300
+DAILY_AI_QUESTION_LIMIT = 10000
 
 
 def get_daily_ai_remaining(user_id: int):
