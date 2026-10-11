@@ -20,6 +20,10 @@ anthropic>=0.100.0
 # Used by /pdf to extract text from uploaded PDFs.
 pypdf>=4.2.0
 
+# ---- NEW: Jarvis voice ----
+edge-tts               # free neural voices (British male for English, Madhur for Hindi)
+gTTS                   # last-resort fallback voice (only used if edge-tts is unavailable)
+
 #Flask server 
 flask==3.0.3
 #PIL
